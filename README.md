@@ -15,7 +15,7 @@
 This task has been developed as per the PEP8 standards.
 
 <h3> <u> SetUp and Implementation</u> </h3>
-<p> <b> <i> Pre-requisites </i> <b> </p>
+<p> <b> <i> Pre-requisites </i> </b> </p>
 <p> To setup and run this application, Python 3+ is required along with the below modules.
 <ul>
   <li> Flask </li>
