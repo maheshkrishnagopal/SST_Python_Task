@@ -10,7 +10,7 @@ import pandas as pd
 import mysql.connector as mysql
 import time
 
-df = pd.read_csv("E:\\Downloads\python_task\\task\\task_data.csv")
+df = pd.read_csv("PATH TO task_data.csv")
 
 # Initiate DB Connection
 db = mysql.connect(host="python-db.cxxjqwuxxbfj.eu-west-1.rds.amazonaws.com", user="user_one",
