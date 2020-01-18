@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Smart Steel Technologies Task</title>
+      <style>
+        .container {
+        margin-top: 40px;
+        }
+
+        .btn-primary {
+          width: 100%;
+        }
+        .required {
+            color: red;
+        }
+      </style>
+  </head>
+  <body>
+        <div class="container">
+          <div class="panel panel-primary">
+            <div class="panel-heading">Temperature details from "{{start_date}}" to "{{end_date}}":</div>
+              <div class="panel-body">
+                  {% if data|length > 0 %}
+                    <table align="center" style="width:80%;">
+                        <tr>
+                        <th>ID</th>
+                        <th>TIMESTAMP</th>
+                        <th>TEMPERATURE</th>
+                        <th>DURATION</th>
+                        </tr>
+                    {% for item in data %}
+                        <tr>
+                            <td>{{item[0]}}</td>
+                            <td>{{item[1]}}</td>
+                            <td>{{item[2]}}</td>
+                            <td>{{item[3]}}</td>
+                            <td>{{item[4]}}</td>
+                        </tr>
+                    {% endfor %}
+                    </table>
+                  {% else %}
+                    <p> No records available for the searched time period! Please try different timestamps.</p>
+                  {% endif %}
+              </div>
+           </div>
+        </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script>
+<!--        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  </body>
+</html>
