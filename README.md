@@ -23,13 +23,13 @@ This task has been developed as per the PEP8 standards.
   <li> base64 </li>
 </ul>
 
-<p> Steps to run the script that transfers task_data.csv information to database </p>
+<p> <b> <i> Steps to run the script that transfers task_data.csv information to database </i> </b> </p>
 <ol>
   <li> Download the transfer_to_db.py from this repository. </li>
   <li> Open the file in a IDE, provide the actual file path at Line No. 13 and run the file. </li>
 </ol> 
 <br>
-<p> Steps to setup and run the web application to access the data </p>
+<p> <b> <i> Steps to setup and run the web application to access the data </i> </b> </p>
 &nbsp;<p> Once the above pre-requisites are in place, perform the below steps </p>
 <ol>
   <li> Download/Clone this task_data repository and open the app.py in an IDLE. </li>
