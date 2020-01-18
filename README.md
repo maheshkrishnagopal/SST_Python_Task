@@ -14,13 +14,27 @@
 <h3> Code Style </h3>
 This task has been developed as per the PEP8 standards.
 
-<h3> Python Modules </h3>
-<p> In order to implement this application, below Python modules are necessary.
-<ol>
+<h3> SetUp </h3>
+<p> To setup and run this application, Python 3+ is required along with the below modules.
+<ul>
   <li> Flask </li>
   <li> mysql-connector-python </li>
   <li> pandas </li>
   <li> base64 </li>
+</ul>
+
+<p> Steps to run the script that transfers task_data.csv information to database </p>
+<ol>
+  <li> Download the transfer_to_db.py from this repository. </li>
+  <li> Open the file in a IDE, provide the actual file path at Line No. 13 and run the file. </li>
+</ol> 
+<br>
+<p> Steps to setup and run the web application to access the data </p>
+&nbsp;<p> Once the above pre-requisites are in place, perform the below steps </p>
+<ol>
+  <li> Download/Clone this task_data repository and open the app.py in an IDLE. </li>
+  <li> Run the app.py file, without changing any folder structure. </li>
+  <li> Open a web browser and access the application using, <b>YOUR_IP_ADDRESS:8002</b></li>
 </ol>
 
 <h3> License </h3>
