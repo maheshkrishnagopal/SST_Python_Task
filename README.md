@@ -4,8 +4,8 @@
 
 <h3> Technology Stack </h3>
 <ul>
-  <li> Python - As a language for scripting. </li>
-  <li> Flask - Python's micro framework for web applications. </li>
+  <li> Python - As a backend language for scripting. </li>
+  <li> Flask - Python's micro framework for creating web applications. </li>
   <li> MySQL - Database. </li>
   <li> HTML, CSS, JavaScript - User Interface / Frontend </li>
   <li> AWS RDS - MySQL resides in AWS </li>
