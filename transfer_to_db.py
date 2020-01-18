@@ -3,7 +3,7 @@ Name: Database Loader Script
 Author: Maheshkrishna A G
 Description: The script access the task_data.csv file and read them to load into PYTHON_TEST.TASK_DATA table.
 Database: MySQL 8.0.16 in AWS RDS
-Date: 19-Jan-2020
+Date: 18-Jan-2020
 """
 
 import pandas as pd
