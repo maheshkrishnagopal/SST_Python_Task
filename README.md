@@ -29,7 +29,6 @@ This task has been developed as per the PEP8 standards.
   <li> Download the transfer_to_db.py from this repository. </li>
   <li> Open the file in a IDE, provide the actual file path at Line No. 13 and run the file. </li>
 </ol> 
-<br>
 <p> <b> <i> Steps to setup and run the web application to access the data </i> </b> </p>
 &nbsp;<p> Once the above pre-requisites are in place, perform the below steps </p>
 <ol>
