@@ -2,7 +2,7 @@
 
 <p> The task is to load a csv data into a database and that shall be served as a web application to query the loaded information. The web application leverages information from MySQL database and serve it to the users, as per the request. </p>
 
-<h3> Technology Stack </h3>
+<h3> <u> Technology Stack </u> </h3>
 <ul>
   <li> Python - As a backend language for scripting. </li>
   <li> Flask - Python's micro framework for creating web applications. </li>
@@ -11,10 +11,11 @@
   <li> AWS RDS - MySQL resides in AWS </li>
 </ul>
 
-<h3> Code Style </h3>
+<h3> <u> Code Style </u> </h3>
 This task has been developed as per the PEP8 standards.
 
-<h3> SetUp </h3>
+<h3> <u> SetUp and Implementation</u> </h3>
+<p> <b> <i> Pre-requisites </i> <b> </p>
 <p> To setup and run this application, Python 3+ is required along with the below modules.
 <ul>
   <li> Flask </li>
