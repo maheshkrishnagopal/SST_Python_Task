@@ -30,7 +30,7 @@ This task has been developed as per the PEP8 standards.
   <li> Open the file in a IDE, provide the actual file path at Line No. 13 and run the file. </li>
 </ol> 
 <p> <b> <i> Steps to setup and run the web application to access the data </i> </b> </p>
-&nbsp;<p> Once the above pre-requisites are in place, perform the below steps </p>
+<t><p> Once the above pre-requisites are in place, perform the below steps </p>
 <ol>
   <li> Download/Clone this task_data repository and open the app.py in an IDLE. </li>
   <li> Run the app.py file, without changing any folder structure. </li>
