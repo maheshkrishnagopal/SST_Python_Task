@@ -40,7 +40,11 @@ This task has been developed as per the PEP8 standards.
 
 <h3> <u> Easy of Access</u> </h3>
 <p> For easy of access to the application, without implementation, please go to https://www.maheshkrishnagopal.com/smart_steel_task
- 
+
+
+<h3> <u> Reference for User Interface </u> </h3>
+<p> Since I am not an expert in UI design, I have referred the template from SoloDev as per link below, https://www.solodev.com/blog/web-design/adding-a-datetime-picker-to-your-forms.stml. However, the modification of the template as per the requirement are taken care as part of the assignment by me, as it is an open source code available on GitHub. Thanks to SoloDev.</p>
+
 <h3> License </h3>
 This project is licensed under GNU General Public License. Copyright (c) 2020 Maheshkrishna A G
 
