@@ -19,7 +19,7 @@ This task has been developed as per the PEP8 standards.
 <p> To setup and run this application, Python 3+ is required along with the below modules.
 <ul>
   <li> Flask </li>
-  <li> mysql-connector-python </li>
+  <li> mysql-connector </li>
   <li> pandas </li>
   <li> base64 </li>
 </ul>
