@@ -35,7 +35,7 @@ This task has been developed as per the PEP8 standards.
 <ol>
   <li> Download/Clone this task_data repository and open the app.py in an IDLE. </li>
   <li> Run the app.py file, without changing any folder structure. </li>
-  <li> Open a web browser and access the application using, <b>YOUR_IP_ADDRESS:8002</b></li>
+  <li> Open a web browser and access the application using, <b>YOUR_IP_ADDRESS/localhost:8002</b></li>
 </ol>
 
 <h3> <u> Easy of Access</u> </h3>
