@@ -38,7 +38,7 @@ This task has been developed as per the PEP8 standards.
   <li> Open a web browser and access the application using, <b>YOUR_IP_ADDRESS:8002</b> or <b> localhost:8002 </b></li>
 </ol>
 
-<h3> <u> Easy of Access</u> </h3>
+<h3> <u> Easy of Access [Deprecated]</u> </h3>
 <p> For easy of access to the application, without implementation, please go to https://www.maheshkrishnagopal.com/smart_steel_task
 
 
